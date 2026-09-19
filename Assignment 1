@@ -38,3 +38,22 @@ mytuple2=thistuple*2
 print(mytuple2)
 
 
+
+# DICTIONARY---------------->>>>>>>>>>>>>>>>>>>>>>
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year":1964
+}
+print(thisdict)
+print(thisdict["brand"])
+print(len(thisdict))
+print(type(thisdict))
+thisdict1=dict(name="Shreyas" , age=19, country="India")
+print(thisdict1)
+x=thisdict["model"]
+y=thisdict.get("model")
+print(y)
+thisdict["year"]=2018
+thisdict.pop("model")
+print(thisdict)
