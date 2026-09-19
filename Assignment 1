@@ -22,3 +22,19 @@ print(mylist)
 
 
 # TUPLE---------------->>>>>>>>>>>>>>>>>>>>>>
+thistuple=("apple","banana","cherry")
+print(thistuple)
+thistuple1="apple","banana","mango"
+print(thistuple1)
+print("the length of the tuple is ",len(thistuple1))
+tuple2=(1,5,7,9,3)
+tuple3=("abc",34,True,40,"male")
+print(type(thistuple))
+for x in thistuple:
+    print(x)
+tuple4=tuple2+tuple3
+print(tuple4)
+mytuple2=thistuple*2
+print(mytuple2)
+
+
