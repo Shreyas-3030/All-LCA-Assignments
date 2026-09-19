@@ -1,1 +1,24 @@
+# LIST---------------->>>>>>>>>>>>>>>>>>>>>>
+mylist=["apple","banana","cherry"]
+print("list elements are",mylist)
+print("first element is",mylist[0])
+mylist.append("Orange")   #Add Orange at the end of the list
+print(mylist)
+mylist.insert(2,"mango")
+print("list elements are",mylist)
+tropical=["mango","pineaplle","papaya"]
+mylist.extend(tropical)
+print(mylist)
+mylist.remove("banana")
+print(mylist)
+mylist.pop(1)
+print(mylist)
+print("Length is ",len(mylist))
+for x in mylist:
+    print(x)
+mylist.sort
+print(mylist)
 
+
+
+# TUPLE---------------->>>>>>>>>>>>>>>>>>>>>>
