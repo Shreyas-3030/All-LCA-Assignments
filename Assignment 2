@@ -1,1 +1,19 @@
 
+x=float(input("Enter 1st: "))
+y=float(input("Enter 2nd: "))
+z=float(input("Enter 3rd: "))
+
+if x==y==z:
+    print("All three numbers are equal")
+elif x==y or y==z or x==z:
+    print("Two Numbers are equal")
+
+if x>y and x>z:
+    print("Largest number is ",x)
+elif y>z and y>z:
+    print("Largest number is ",y)
+else:
+    print("Largest number is ",z)
+
+
+#SHREYAS DEORE
