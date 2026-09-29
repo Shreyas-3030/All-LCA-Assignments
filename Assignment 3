@@ -1,1 +1,18 @@
 
+def triangle(a,b,c):
+    if(a*a+b*b==c*c) or (a*a+c*c==b*b) or (b*b+c*c==a*a):
+        return True
+    else:
+        return False 
+
+print("Lets Check if it is a Right angled triangle")
+s1=int(input("Enter first side: "))
+s2=int(input("Enter second side: "))
+s3=int(input("Enter third side: "))
+
+if triangle(s1,s2,s3):
+    print("Yep, that's a right angles triangle")
+else:
+    print("Nope, not a right angled triangle")
+
+#SHREYAS DEORE 
