@@ -1,1 +1,8 @@
 
+import pandas as py 
+df=pd.read_excel(r"/Users/shreyasdeore/Python")
+print(df)
+
+print("-------------------------------------------------------------")
+print("First 5 elements are")
+print(df.head())
